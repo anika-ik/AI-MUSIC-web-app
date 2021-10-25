@@ -19,7 +19,7 @@ function preload(){
 }
 
 function draw(){
-    image(video, 100, 50, 600, 500);
+    image(video, 100, 100, 600, 500);
 
     fill("#c030b");
     stroke("#c030b");
@@ -48,7 +48,7 @@ function draw(){
 }
 
 function setup(){
-    canvas= createCanvas(600, 500);
+    canvas= createCanvas(600, 550);
     canvas.center();
 
     video= createCapture(VIDEO);
